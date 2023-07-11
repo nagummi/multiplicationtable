@@ -1,0 +1,28 @@
+<html>
+        <body><!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Multiplication Table</h1>
+
+        <p>Results displayed here:</p>
+       <p id="multiple"></p>
+       <p id="limit"></p>
+    </body>
+</html></body>
+        <style>body{
+background-color:indianred;
+}</style>
+        <script>var a=prompt("What is the number that you want to display multiples to?")
+var v=prompt("How many multiples?")
+var x
+for(x=1; x<=v; x++){
+    var b=a*x
+document.write(a+"x"+x+"="+b+"<br>")
+
+}
+document.getElementById("multiple").innerHTML="Original Number:"+a
+document.getElementById("limit").innerHTML="Maximum Number:"+v</script>
+      </html>
